@@ -215,6 +215,11 @@ textarea {
   width: 30rem;
   height: 30rem;
 }
+
+:is(.home-image, .about-image) img {
+  filter: drop-shadow(0 0 10px rgba(100, 187, 252, 0.4));
+  -webkit-filter: drop-shadow(0 0 10px rgba(100, 187, 252, 0.4));
+}
 .about-image {
   align-items: start;
 }
