@@ -51,6 +51,12 @@
     width: 50rem;
     height: 50rem;
   }
+
+  .contact-links > a {
+    width: 6rem;
+    height: 6rem;
+    font-size: 1.7rem;
+  }
 }
 @media (width <= 650px) {
   .navbar {
@@ -118,6 +124,24 @@
 
   form {
     width: 100%;
+  }
+}
+@media (width <=460px) {
+  .contact-links > a {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.7rem;
+  }
+}
+
+@media (width <=390px) {
+  .contact-links {
+    flex-wrap: wrap;
+    max-width: 50rem;
+    padding-inline: 1rem;
+  }
+  .contact-links a {
+    flex: 0 1 4rem;
   }
 }
 

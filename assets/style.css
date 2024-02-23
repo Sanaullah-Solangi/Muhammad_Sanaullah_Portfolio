@@ -491,6 +491,32 @@ textarea {
   -ms-border-radius: 0.3rem;
   -o-border-radius: 0.3rem;
 }
+.contact-links {
+  gap: 5rem;
+}
+
+.contact-links,
+.contact-links > a > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-links > a {
+  cursor: pointer;
+  width: 10rem;
+  height: 10rem;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.contact-links > a > figure {
+  flex-direction: column;
+}
+
 #footer {
   background: var(--text-color);
   padding: 2rem 10rem;
