@@ -217,8 +217,8 @@ textarea {
 }
 
 :is(.home-image, .about-image) img {
-  filter: drop-shadow(0 0 10px rgba(100, 187, 252, 0.4));
-  -webkit-filter: drop-shadow(0 0 10px rgba(100, 187, 252, 0.4));
+  filter: drop-shadow(0 0 1px var(--icon-border));
+  -webkit-filter: drop-shadow(0 0 1px var(--icon-border));
 }
 .about-image {
   align-items: start;
