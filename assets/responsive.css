@@ -14,6 +14,10 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 5rem;
   }
+
+  .about-content > p {
+    text-align: center;
+  }
   .grid-three-columns {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -117,5 +121,9 @@
   .about-image img,
   .home-image img {
     width: 100%;
+  }
+
+  .service-box {
+    height: auto;
   }
 }

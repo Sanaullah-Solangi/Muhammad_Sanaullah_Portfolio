@@ -303,6 +303,7 @@ textarea {
   gap: 5rem;
 }
 .service-box {
+  height: 35rem;
   flex: 1 1 30rem;
   box-shadow: var(--shadow);
   padding: 5rem 2rem;
@@ -372,6 +373,7 @@ textarea {
   }
 }
 .service-box h3 {
+  text-align: center;
   font-size: 2rem;
   text-transform: capitalize;
   padding: 1.5rem 0 2rem;
